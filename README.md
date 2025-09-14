@@ -5,8 +5,8 @@ A Python batch processor for translating SRT subtitle files between languages, w
 ## Features
 - Batch process all `.srt` files in an `input` folder
 - Translate subtitles from any source language to any target language (using Google Translate)
-- Optionally include original text and vocabulary breakdown in output
-- For Chinese source, vocabulary includes pinyin
+- Optionally include original text and vocabulary breakdown in output (this feature is for creating Anki flashcards. See my Anki-Slicer repository for more information)
+- For Chinese source, the vocabulary breakdown includes pinyin
 - Outputs processed files to an `output` folder
 - Simple GUI for language and option selection
 
